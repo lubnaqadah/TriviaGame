@@ -1,0 +1,37 @@
+html {
+	background-image:url(http://media.istockphoto.com/vectors/soccer-pattern-football-background-vector-id532184668?k=6&m=532184668&s=612x612&w=0&h=dAnrgu80zuaHWXPK7gOtgM_a13cwJ5AR9IljgT5jZRM=);
+	background-repeat:round;
+}
+
+body{
+	width: 960px;
+	margin: auto;
+	color: #044C29;
+	text-align: center;
+	font-family: 'Saira', sans-serif;
+	box-sizing: border-box;
+}
+
+.container {
+	background-color:#C4D7A4;
+	margin:15px auto;
+	height: 600px;
+	width: auto;
+	padding: 10px;
+}
+
+.start{
+	background-color:#044C29;
+	color: #C4D7A4;
+	font-size: 2em;
+	font-weight: 800;
+	padding: 20px;
+	border: solid 1px #044C29;
+	border-radius: 10px;
+	margin-top: 10%;
+}
+
+.hover :hover{
+	background-color:#044C29;
+	color: #C4D7A4;
+}
