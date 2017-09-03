@@ -85,7 +85,7 @@ function final(){
 	result.append("<h3> Correct Answers: " + elements.right + "</h3>");
 	result.append("<h3> Incorrect Answers: " + elements.wrong + "</h3>");
 	result.append("<button class='reset start'>Start Over</button>")
-	$(".main").html(result)
+	$("#question").html(result)
 	
 };
 
@@ -122,8 +122,8 @@ $(document).on("click", "h3", function(){
 });
 
 $(document).on("click", ".reset", function(){
-	$(".main").empty();
-	elements.seconds = 0;
+	$("#question").empty();
+	elements.seconds = 31;
 	elements.right = 0;
 	elements.wrong = 0;
 	elements.unanswered = 0;
